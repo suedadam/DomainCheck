@@ -8,7 +8,7 @@
  )
 
  func main() {
- 		 var toTry []string
+ 	var toTry []string
          addresses, err := net.LookupIP(os.Args[1])
 
          for _, addr := range addresses {
